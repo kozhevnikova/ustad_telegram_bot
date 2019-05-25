@@ -50,7 +50,7 @@ const (
 
 func main() {
 	channel = &channellogger.ChannelData{
-		BotID:     "",
+		Token:     "",
 		ChannelID: "",
 	}
 
