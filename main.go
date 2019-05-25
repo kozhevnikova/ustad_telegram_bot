@@ -91,7 +91,7 @@ func main() {
 func botInitialization() (*tgbotapi.BotAPI, error) {
 	var bot *tgbotapi.BotAPI
 
-	err := os.Setenv("", "")
+	err := os.Setenv("token", "")
 	if err != nil {
 		Error.Println(err)
 		return bot, err
